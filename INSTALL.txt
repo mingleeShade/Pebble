@@ -9,7 +9,7 @@ blade的内容已经放在目录tools/blade下
 
 cd blade
 ./install
-source ~/.bash_profile
+source ~/.profile
 
 2、如何安装scons
 scons2.3.4的内容已经放在目录tools/scons下
