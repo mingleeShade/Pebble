@@ -1,0 +1,5 @@
+tools/scons/scons-2.3.4/
+.Building.lock
+.sconsign.dblite
+blade-bin
+build64_release/

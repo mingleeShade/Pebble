@@ -3009,7 +3009,7 @@ void t_cpp_generator::generate_service_client(t_service* tservice, string style)
           endl;
           out << indent() <<
               "--(*num_called);" << endl << indent() <<
-              "--(*num_parallel);" << endl << indent() <<
+              "--(*num_parallel);" << endl << indent();
         out << indent(1) <<
           "pebble::OnRpcResponse on_rsp;" << endl << indent(1) <<
           "int32_t ret = m_client->SendRequest(GetHandle(), head, buff, buff_len, on_rsp, m_methods[\"" << funname << "\"]);" << endl << indent(1) <<

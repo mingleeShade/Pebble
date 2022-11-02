@@ -44,7 +44,7 @@ public:
     void PushFront(const T& value)
     {
         {
-            AutoLocker locker(m_mutex);
+            AutoLocker locker(&m_mutex);
             while (UnlockedIsFull())
             {
                 m_cond_not_full.Wait(&m_mutex);

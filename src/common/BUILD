@@ -24,6 +24,7 @@ cc_library(
     ],
     extra_cppflags = [
         '--std=c++0x',
+        '-Wno-error=format-truncation',
     ],
     incs = [
     ],
